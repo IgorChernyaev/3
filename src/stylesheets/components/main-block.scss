@@ -1,0 +1,17 @@
+.main-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+
+  &__paragraphly-footer {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: $gray-b6;
+  }
+}

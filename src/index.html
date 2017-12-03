@@ -8,94 +8,379 @@
     <link href="application.css" rel="stylesheet">
   </head>
   <body>
-    <header class="clearfix">
+    <header class="header">
       <div class="container">
-        <nav>
-          <ul class="menu-one">
-            <li class="border">
-              <a href="#">Home</a>
+        <div class="nav clearfix">
+          <ul class="nav__left-side clearfix">
+            <li>
+              <a href="#" class="nav__link">Home</a>
             </li>
-            <li class="border">
-                <a href="#">About</a>
+            <li>
+                <a href="#" class="nav__link">About</a>
             </li>
-            <li class="border">
-                <a href="#">Work</a>
-            </li>
-          </ul>
-          <ul class="menu-two">
-            <li class="border">
-                <a href="#">Blog</a>
-            </li>
-            <li class="border">
-                <a href="#">Contact</a>
+            <li">
+                <a href="#" class="nav__link">Work</a>
             </li>
           </ul>
-        </nav>
+          <ul class="nav__right-side clearfix">
+            <li">
+                <a href="#" class="nav__link">Blog</a>
+            </li>
+            <li>
+                <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
         <div class="header-text">
-          <h2>Hi there! We are the new kids on the block
+          <h2 class="header-text__title-two">Hi there! We are the new kids on the block
           and we build awesome websites and mobile apps</h2>
         </div>
         <div class="btn">
-          <a href="#" class="button">Work with us!</a>
+          <a href="#" class="btn__button">Work with us!</a>
         </div>
       </div>
   </header>
   <section class="services clearfix">
     <div class="container">
-      <div class="caption">
-        <h3>Services we provide</h3>
-      </div>
-      <div class="line"></div>
-      <div class="caption-text">
-        <p>We are working with both individuals and businesses from all over the globe
-        to create awesome websites and applications.
-        </p>
-      </div>
-      <div class="block-one">
-        <div class="flag"></div>
-        <div class="block-text">
-          <div class="head">
-            <h4>Branding</h4>
-          </div>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-          </div>
+      <div class="top-services">
+        <div class="top-services__caption">
+          <h3 class="top-services__title-three white">Services we provide</h3>
+        </div>
+        <div class="top-services__line"></div>
+        <div class="top-services__caption-text">
+          <p class="top-services__paragraphly white">We are working with both individuals and businesses from all over the globe
+          to create awesome websites and applications.
+          </p>
         </div>
       </div>
-      <div class="block-two">
-        <div class="pencil"></div>
-        <div class="block-text">
-          <div class="head">
-            <h4>Design</h4>
-          </div>
-          <div class="content">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-          </div>
-        </div>
-      </div>
-      <div class="block-three">
-        <div class="gears"></div>
-        <div class="block-text">
-          <div class="head">
-            <h4>Development</h4>
-          </div>
-          <div class="content">
-            <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+      <div class="row">
+        <div class="branding">
+          <div class="branding__flag"></div>
+          <div class="branding__block-text">
+            <div class="branding__head">
+              <h4 class="branding__title-four">Branding</h4>
+            </div>
+            <div class="branding__content">
+              <p class="branding__paragraphly-services">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="block-four">
-        <div class="rocket"></div>
-        <div class="block-text">
-          <div class="head">
-            <h4>Rocket scient</h4>
+        <div class="design">
+          <div class="design__pencil"></div>
+          <div class="design__block-text">
+            <div class="design__head">
+              <h4 class="design__title-four">Design</h4>
+            </div>
+            <div class="design__content">
+              <p class="design__paragraphly-services">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+            </div>
           </div>
-          <div class="content">
-            <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+        </div>
+        <div class="development">
+          <div class="development__gears"></div>
+          <div class="development__block-text">
+            <div class="development__head">
+              <h4 class="development__title-four">Development</h4>
+            </div>
+            <div class="development__content">
+              <p class="development__paragraphly-services">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+          </div>
+        </div>
+        <div class="rocket-scient">
+          <div class="rocket-scient__rocket"></div>
+          <div class="rocket-scient__block-text">
+            <div class="rocket-scient__head">
+              <h4 class="rocket-scient__title-four">Rocket scient</h4>
+            </div>
+            <div class="rocket-scient__content">
+              <p class="rocket-scient__paragraphly-services">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="team clearfix">
+    <div class="container">
+      <div class="top-team">
+        <div class="top-team__caption">
+          <h3>Meet our team</h3>
+        </div>
+        <div class="top-team__line"></div>
+        <div class="top-team__caption-text">
+          <p>We are a small team of designers and developers, who help brands with big ideas.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="james clearfix">
+          <div class="james__face-one"></div>
+          <div class="james__block-text">
+            <div class="james__head">
+              <h4 class="james__title-four">James Collins</h4>
+             <h5 class="james__title-five">Ceo / Marketing Guru</h5>
+            </div>
+            <div class="james__content">
+              <p class="james__paragraphly-team">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+              <div class="icon">
+                <a class="icon__item icon__item--facebook" href="#"></a>
+                <a class="icon__item icon__item--twitter" href="#"></a>
+                <a class="icon__item icon__item--linkedin" href="#"></a>
+                <a class="icon__item icon__item--email" href="#"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="peter clearfix">
+          <div class="peter__face-two"></div>
+          <div class="peter__block-text">
+            <div class="peter__head">
+              <h4 class="peter__title-four">Peter davis</h4>
+              <h5 class="peter__title-five">Creative Director</h5>
+            </div>
+            <div class="peter__content">
+              <p class="peter__paragraphly-team">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+              <div class="icon">
+                <a class="icon__item icon__item--twitter" href="#"></a>
+                <a class="icon__item icon__item--linkedin" href="#"></a>
+                <a class="icon__item icon__item--email" href="#"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="olivia clearfix">
+          <div class="olivia__face-three"></div>
+          <div class="olivia__block-text">
+            <div class="olivia__head">
+              <h4 class="olivia__title-four">Olivia Wilde</h4>
+              <h5 class="olivia__title-five">Lead Designer</h5>
+            </div>
+            <div class="olivia__content">
+              <p class="olivia__paragraphly-team">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+              <div class="icon">
+                <a class="icon__item icon__item--facebook" href="#"></a>
+                <a class="icon__item icon__item--twitter" href="#"></a>
+                <a class="icon__item icon__item--linkedin" href="#"></a>
+                <a class="icon__item icon__item--email" href="#"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ashley clearfix">
+          <div class="ashley__face-four"></div>
+          <div class="ashley__block-text">
+            <div class="ashley__head">
+              <h4 class="ashley__title-four">Ashley Greene</h4>
+              <h5 class="ashley__title-five">Seo / Developer</h5>
+            </div>
+            <div class="ashley__content">
+              <p class="ashley__paragraphly-team">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+              <div class="icon">
+                <a class="icon__item icon__item--facebook" href="#"></a>
+                <a class="icon__item icon__item--twitter" href="#"></a>
+                <a class="icon__item icon__item--email" href="#"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills clearfix">
+    <div class="container">
+      <div class="top-skills">
+        <div class="top-skills__caption">
+          <h3>We got skills!</h3>
+        </div>
+        <div class="top-skills__line"></div>
+        <div class="top-skills__caption-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="web-design">
+          <div class="web-design__chart-1"></div>
+          <div class="web-design__block-text">
+            <div class="web-design__head">
+              <h4 class="web-design__title-four">Web Design</h4>
+            </div>
+          </div>
+        </div>
+        <div class="html-css">
+          <div class="html-css__chart-2"></div>
+          <div class="html-css__block-text">
+            <div class="html-css__head">
+              <h4 class="html-css__title-four">Html / Css</h4>
+            </div>
+          </div>
+        </div>
+        <div class="graphic-design">
+          <div class="graphic-design__chart-3"></div>
+          <div class="graphic-design__block-text">
+            <div class="graphic-design__head">
+              <h4 class="graphic-design__title-four">Graphic design</h4>
+            </div>
+          </div>
+        </div>
+        <div class="ul-ux">
+          <div class="ul-ux__chart-4"></div>
+          <div class="ul-ux__block-text">
+            <div class="ul-ux__head">
+              <h4 class="ul-ux__title-four">Ul / Ux</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio clearfix">
+    <div class="container">
+      <div class="top-portfolio">
+        <div class="top-portfolio__caption white">
+          <h3>Our portfolio</h3>
+        </div>
+        <div class="top-portfolio__line"></div>
+        <div class="top-portfolio__caption-text">
+          <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+          consectetur, adipisci velit, sed quia non numquam.
+          </p>
+        </div>
+      </div>
+      <div class="choice">
+        <ul>
+          <li>
+            <a href="#" class="choice__link">All</a>
+          </li>
+          <li>
+            <a href="#" class="choice__link">Web</a>
+          </li>
+          <li>
+            <a href="#" class="choice__link">Apps</a>
+          </li>
+          <li>
+            <a href="#" class="choice__link">Icons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="photos clearfix">
+    <div class="photos-list">
+      <div class="photos-list__item photos-list__item--first"></div>
+      <div class="photos-list__item photos-list__item--second"></div>
+      <div class="photos-list__item photos-list__item--third"></div>
+      <div class="photos-list__item photos-list__item--fourth"></div>
+      <div class="photos-list__item photos-list__item--fifths"></div>
+      <div class="photos-list__item photos-list__item--sixth"></div>
+    </div>
+  </section>
+  <section class="people clearfix">
+    <div class="container">
+      <div class="top-people">
+        <div class="top-people__caption white">
+          <h3>What people say about us</h3>
+        </div>
+        <div class="top-people__line"></div>
+        <div class="top-people__caption-text">
+          <p>Our clients love us!</p>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="chanel">
+          <div class="chanel__avatar-1"></div>
+          <div class="chanel__block-text">
+            <div class="chanel__head">
+              <p class="chanel__paragraphly-people">Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.</p>
+            </div>
+            <div class="chanel__content">
+              <h4 class="chanel__title-four">Chanel iman</h4>
+              <h5 class="chanel__title-five">CEO of Pinterest</h5>
+            </div>
+          </div>
+        </div>
+        <div class="brooklyn">
+          <div class="brooklyn__avatar-2"></div>
+          <div class="brooklyn__block-text">
+            <div class="brooklyn__head">
+              <p class="brooklyn__paragraphly-people">Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.</p>
+            </div>
+            <div class="brooklyn__content">
+              <h4 class="brooklyn__title-four">Brooklyn jones</h4>
+              <h5 class="brooklyn__title-five">Founder of Instagram</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="donald">
+          <div class="donald__avatar-3"></div>
+          <div class="donald__block-text">
+            <div class="donald__head">
+              <p class="donald__paragraphly-people">Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.</p>
+            </div>
+            <div class="donald__content">
+              <h4 class="donald__title-four">Donald roberts</h4>
+              <h5 class="donald__title-five">Lead Designer at Behance</h5>
+            </div>
+          </div>
+        </div>
+        <div class="joe">
+          <div class="joe__avatar-4"></div>
+          <div class="joe__block-text">
+            <div class="joe__head">
+              <p class="joe__paragraphly-people">Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.</p>
+            </div>
+            <div class="joe__content">
+              <h4 class="joe__title-four">Joe ward</h4>
+              <h5 class="joe__title-five">Co-Founder of Shazam </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="communication clearfix">
+      <div class="container">
+        <div class="top-communication">
+          <div class="top-communication__caption">
+            <h3>Get in touch</h3>
+          </div>
+          <div class="top-communication__line"></div>
+          <div class="top-communication__caption-text">
+            <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+          </div>
+        </div>
+        <div class="form clearfix">
+          <div class="form__forms">
+            <p>
+              <input type="text" class="form__name" required placeholder="Your Name">
+            </p>
+            <p>
+              <input type="email" class="form__email" required placeholder="Your Email">
+            </p>
+            <textarea type="text" required class="form__message" placeholder="Your Message"></textarea>
+            <button type="submit" class="form__butt">Send message</button>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="footer clearfix">
+    <div class="container">
+      <div class="main-block">
+        <p class="main-block__paragraphly-footer">Follow us</p>
+        <div class="socials-list">
+          <a class="socials-list__item socials-list__item--github-b" href="#"></a>
+          <a class="socials-list__item socials-list__item--twitter-b" href="#"></a>
+          <a class="socials-list__item socials-list__item--dribble-b" href="#"></a>
+          <a class="socials-list__item socials-list__item--facebook-b" href="#"></a>
+          <a class="socials-list__item socials-list__item--instagram-b" href="#"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   </body>
 </html>

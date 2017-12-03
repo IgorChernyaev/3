@@ -1,0 +1,132 @@
+.form {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-family: Raleway;
+  
+
+  &__forms {
+    display: inline-block;
+    width: 80%;
+  }
+
+  &__name {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $white;
+    width: 100%;
+    border: 1px solid $gray-d7;
+    font-size: 18px;
+
+    &:fokus {
+      border: 1px solid $black-87;
+      outline: none;
+    }
+  }
+
+  &__email {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $white;
+    width: 100%;
+    border: 1px solid $gray-d7;
+    font-size: 18px;
+
+    &:fokus {
+      border: 1px solid $black-87;
+      outline: none;
+    }
+  }
+
+  &__message {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $white;
+    width: 100%;
+    border: 1px solid $gray-d7;
+    font-size: 18px;
+    resize: none;
+
+    &:fokus {
+      border: 1px solid $black-87;
+      outline: none;
+    }
+  }
+
+  &__butt {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background: $light-red;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 0;
+    letter-spacing: 3px;
+
+    &:active {
+      padding: 11px 21px;
+      margin-bottom: -2px;
+    }
+  }
+
+  @media screen and (min-width: 414px) {
+
+    &__butt {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    &__butt {
+      font-size: 18px;
+    }
+
+    &__name {
+      width: 48%;
+    }
+
+    &__email {
+      width: 48%;
+    }
+
+    &__message {
+      width: 80%;
+      margin-top: 30px;
+    }
+  }
+
+  @media screen and (min-width: $viewport-md) {
+    margin-bottom: 50px;
+
+    &__name {
+      width: 48%;
+      border: 1px solid $gray-d7;
+      padding: 12px 20px;
+      float: left;
+    }
+
+    &__email {
+      width: 48%;
+      border: 1px solid $gray-d7;
+      padding: 12px 20px;
+      float: right;
+    }
+
+    &__message {
+      width: 100%;
+      border: 1px solid $gray-d7;
+      padding: 10px 20px 100px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  }
+}
+
+

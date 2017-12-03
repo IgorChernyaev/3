@@ -3,7 +3,7 @@
 
 * {
   box-sizing: border-box;
-  }
+}
 
 body {
   position: relative;
@@ -14,18 +14,80 @@ body {
 }
 
 .clearfix {
-    &::before {
-        display: table;
-        content: "";
-    }
-
-    &::after {
-        display: table;
-        clear: both;
-        content: "";
-    }
-}
-.container {
-    max-width: 100%;
-    margin: 0 auto;
+  &::before {
+    display: table;
+    content: "";
   }
+
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1366px) {
+    width: 1140px;
+  }
+}
+
+.row {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.white {
+  color: $white
+}
+
+.header {
+  background: url(../images/bg1.png) no-repeat center / cover;
+  width: 100%;
+}
+
+.services {
+  background-color: $green-5d;
+  width: 100%;
+}
+
+.team {
+  background-color: $light-blue;
+  width: 100%;
+}
+
+.skills {
+  background-color: $white;
+  width: 100%;
+}
+
+.portfolio {
+  background-color: $black;
+  width: 100%;
+}
+
+.photos {
+  background-color: $white;
+  width: 100%;
+}
+
+.people {
+  background-color: $light-red;
+  width: 100%;
+}
+
+.communication {
+  background-color: $white;
+  width: 100%;
+}
+
+.footer {
+  background-color: $gray-e7;
+  width: 100%;
+}
+

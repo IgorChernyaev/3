@@ -1,0 +1,41 @@
+.socials-list {
+  display: block;
+  margin-bottom: 50px;
+
+  &__item {
+    display: inline-block;
+    margin: 0 5px;
+    height: 45px;
+    width: 45px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &--github-b {
+      background: url(../images/github-b.png);
+    }
+
+    &--twitter-b {
+      background: url(../images/twitter-b.png);
+    }
+
+    &--dribble-b {
+      background: url(../images/dribble-b.png);
+    }
+
+    &--facebook-b {
+      background: url(../images/facebook-b.png);
+    }
+
+    &--instagram-b {
+      background: url(../images/instagram-b.png);
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+        &__item {
+            margin: 0 15px;
+        }
+    }
+}

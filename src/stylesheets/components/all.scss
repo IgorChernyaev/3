@@ -1,21 +1,32 @@
-// разбиваешь свои компоненты на файлы, импортишь сюда.
-// в кажом файле у тебя хрень вот такого вида
-.nav {
-    &__left-side {}
-
-    &__right-side {
-        &--red {}
-
-        &::after {}
-
-        &:hover {}
-    }
-}
-// после компиляции станет вот так
-.nav {}
-.nav__left-side {}
-.nav__right-side {}
-.nav__right-side--red {}
-.nav__right-side::after {}
-.nav__right-side:hover {}
-// это надо чтобы у тебя селекторы не наращивали мощь и была понятная структура
+@import "nav";
+@import "header-text";
+@import "btn";
+@import "top-services";
+@import "branding.scss";
+@import "design.scss";
+@import "development.scss";
+@import "rocket-scient.scss";
+@import "top-team";
+@import "james";
+@import "peter";
+@import "olivia";
+@import "ashley";
+@import "icon";
+@import "top-skills";
+@import "web-design";
+@import "html-css";
+@import "graphic-design";
+@import "ul-ux";
+@import "top-portfolio";
+@import "choice";
+@import "photos-list";
+@import "top-people";
+@import "chanel";
+@import "brooklyn";
+@import "donald";
+@import "joe";
+@import "wrap";
+@import "top-communication";
+@import "form";
+@import "main-block";
+@import "social-list";

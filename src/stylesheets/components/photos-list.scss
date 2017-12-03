@@ -1,0 +1,61 @@
+.photos-list {
+    display: block;
+    text-align: center;
+    padding: 0;
+
+    &__item {
+        display: inline-block;
+        width: 320px;
+        height: 320px;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        &--first {
+            background-image: url(images/f1.png);
+        }
+
+        &--second {
+            background-image: url(images/f2.png);
+        }
+
+        &--third {
+            background-image: url(images/f3.png);
+        }
+
+        &--fourth {
+            background-image: url(images/f4.png);
+        }
+
+        &--fifths {
+            background-image: url(images/f5.png);
+        }
+
+        &--sixth {
+            background-image: url(images/f6.png);
+        }
+    }
+
+    @media only screen and (min-width: 320px) {
+        &__item {
+            width: 320px;
+            height: 320px;
+        }
+    }
+
+    @media only screen and (min-width: 375px) {
+        &__item {
+            width: 375px;
+            height: 375px;
+        }
+    }
+
+    @media only screen and (min-width: 1366px) {
+        &__item {
+            width: 445px;
+            height: 445px;
+        }
+    }
+}
