@@ -1,17 +1,34 @@
-.brooklyn {
+.people-item {
   display: inline-block;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   vertical-align: top;
   line-height: 20px;
   text-decoration: none;
 
-  &__avatar-2 {
-    background: url(../images/avatar-2.png) no-repeat center;
+  &__face {
     width: 96px;
     height: 96px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
     float: left;
+
+    &--avatar-1 {
+      background-image: url(../images/avatar-1.png);
+    }
+
+    &--avatar-2 {
+      background-image: url(../images/avatar-2.png);
+    }
+
+    &--avatar-3 {
+      background-image: url(../images/avatar-3.png);
+    }
+
+    &--avatar-4 {
+      background-image: url(../images/avatar-4.png);
+    }
   }
 
   &__block-text {
@@ -59,7 +76,7 @@
     color: $white-fd
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $viewport-md) {
     
     &__block-text {
       width: 60%;
@@ -77,9 +94,9 @@
     }
   }
 
-  @media screen and (min-width: $viewport-md) {
+  @media screen and (min-width: $viewport-lg) {
     display: inline-block;
-    width: 50%;
+    width: 49%;
     margin-right: 0;
     margin-bottom: 0;
 

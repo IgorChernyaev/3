@@ -1,4 +1,4 @@
-.html-css {
+.skills-item {
   display: inline-block;
   width: 100%;
   margin-bottom: 50px;
@@ -6,14 +6,31 @@
   line-height: 20px;
   text-decoration: none;
 
-  &__chart-2 {
-    background: url(../images/chart-2.png) no-repeat center;
+  &__image {
     width: 153px;
     height: 153px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--chart-1 {
+      background-image: url(../images/chart-1.png);
+    }
+
+    &--chart-2 {
+      background-image: url(../images/chart-2.png);
+    }
+
+    &--chart-3 {
+      background-image: url(../images/chart-3.png);
+    }
+
+    &--chart-4 {
+      background-image: url(../images/chart-4.png);
+    }
   }
 
-  &__block-text {
+   &__block-text {
     display: inline-block;
     width: 100%;
   }
@@ -28,7 +45,7 @@
     font-weight: 300;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $viewport-md) {
     
     &__title-four {
       font-size: 24px;
@@ -36,7 +53,7 @@
     }
   }
 
-  @media screen and (min-width: $viewport-md) {
+  @media screen and (min-width: $viewport-lg) {
     display: inline-block;
     width: 24%;
 

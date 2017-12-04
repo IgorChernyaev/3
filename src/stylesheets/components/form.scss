@@ -82,7 +82,7 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $viewport-md) {
 
     &__butt {
       font-size: 18px;
@@ -102,7 +102,7 @@
     }
   }
 
-  @media screen and (min-width: $viewport-md) {
+  @media screen and (min-width: $viewport-lg) {
     margin-bottom: 50px;
 
     &__name {

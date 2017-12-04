@@ -1,4 +1,4 @@
-.ashley {
+.services-item {
   display: inline-block;
   width: 100%;
   margin-bottom: 50px;
@@ -6,11 +6,28 @@
   line-height: 20px;
   text-decoration: none;
 
-  &__face-four {
-    background: url(../images/photo-4.png) no-repeat center;
-    width: 200px;
-    height: 200px;
+  &__image {
+    width: 151px;
+    height: 151px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--flag {
+      background-image: url(../images/Flag.png);
+    }
+
+    &--pencil {
+      background-image: url(../images/pencil.png);
+    }
+
+    &--gears {
+      background-image: url(../images/gears.png);
+    }
+
+    &--rocket {
+      background-image: url(../images/Rocket.png);
+    }
   }
 
   &__block-text {
@@ -24,19 +41,8 @@
     font-family: Oxygen;
     font-size: 15px;
     text-align: center;
-    color: $black-38;
-    font-weight: 400;
-  }
-
-  &__title-five {
-    text-transform: uppercase;
-    font-family: Raleway;
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    margin-top: 0;
-    text-align: center;
-    color: $light-black;
+    color: $white;
+    font-weight: 300;
   }
 
   &__content {
@@ -44,7 +50,7 @@
     width: 100%;
   }
 
-  &__paragraphly-team {
+  &__paragraphly-services {
     width: 90%;
     margin: 0 auto;
     font-family: Raleway;
@@ -52,29 +58,32 @@
     font-weight: 400;
     text-align: center;
     line-height: 20px;
-    color: $black-38; 
+    color: $white; 
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $viewport-md) {
     
     &__title-four {
       font-size: 24px;
       font-weight: 300;
     }
 
-    &__paragraphly-team {
+    &__paragraphly-services {
       font-size: 18px;
       line-height: 25px;
     }
   }
 
-  @media screen and (min-width: $viewport-md) {
+  @media screen and (min-width: $viewport-lg) {
     display: inline-block;
     width: 24%;
 
     &__title-four {
       margin-top: 30px;
       margin-bottom: 20px;
+    }
+    &__paragraphly-services {
+      padding-bottom: 100px;
     }
   }
 }
