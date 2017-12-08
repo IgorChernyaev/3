@@ -1,4 +1,4 @@
-.top-communication {
+.top-text {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -8,30 +8,105 @@
     margin: 0;
     padding-top: 30px;
     width: 100%;
+  }
+
+  &__title-three {
     text-transform: uppercase;
     font-family: Oxygen;
     font-size: 20px;
     font-weight: 700;
-    color: $black-38;
+
+    &--services {
+      color: $white;
+    }
+
+    &--team {
+      color: $black-38;
+    }
+
+    &--skills {
+      color: $black-38;
+    }
+
+    &--portfolio {
+      color: $white;
+    }
+
+    &--people {
+      color: $white;
+    }
+
+    &--communication {
+      color: $black-38;
+    }
   }
 
   &__line {
     display: block;
     margin: 0 auto 15px;
     width: 50px;
-    border-bottom: 2px solid $gray-e5;
+
+    &--services {
+      border-bottom: 2px solid $green-7d;
+    }
+
+    &--team {
+      border-bottom: 2px solid $gray-d6;
+    }
+
+    &--skills {
+      border-bottom: 2px solid $gray-e5;
+    }
+
+    &--portfolio {
+      border-bottom: 2px solid $gray-4d;
+    }
+
+    &--people {
+      border-bottom: 2px solid $gray-f2;
+    }
+
+    &--communication {
+      border-bottom: 2px solid $gray-e5;
+    }
   }
 
   &__caption-text {
     display: inline-block;
     margin: 0 0 40px;
     width: 80%;
+  }
+
+  &__paragraphly {
     text-decoration: none;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    color: $black-38;
+
+    &--services {
+      color: $white;
+    }
+
+    &--team {
+      color: $black-45;
+    }
+
+    &--skills {
+      color: $black-38;
+    }
+
+    &--portfolio {
+      color: $gray-a;
+    }
+
+    &--people {
+      color: $gray-fb;
+    }
+
+    &--communication {
+      color: $black-38;
+    }
   }
           
   @media screen and (min-width: $viewport-md) {
@@ -53,8 +128,6 @@
   }
 
   @media screen and (min-width: $viewport-lg) {
-    margin-bottom: 90px;
-
     &__caption {
       font-size: 36px;
       margin-bottom: 20px;
@@ -73,3 +146,4 @@
     }
   }
 }
+
